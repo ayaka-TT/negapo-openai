@@ -42,7 +42,14 @@ export default function Home() {
           <input type="submit" value="Translate" />
         </form>
         <div className={styles.result}>{result}</div>
-        <footer>Inspired by <a href="http://negapositen.web.fc2.com/">ネガポ辞典</a></footer>
+        <footer>
+          <p>
+            The translator: <a href="https://beta.openai.com/docs/introduction/key-concepts/">Open AI</a>
+          </p>
+          <p>
+            Inspired by <a href="http://negapositen.web.fc2.com/">ネガポ辞典</a>
+          </p>
+        </footer>
       </main>
     </div>
   );
